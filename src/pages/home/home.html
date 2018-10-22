@@ -1,0 +1,31 @@
+<ion-header>
+  <ion-navbar color="danger">
+    <ion-title>
+      UAO
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="card-background-page">
+  <!-- <ion-nav [root]="noticiasRoot"> -->
+    <ion-card (click)="pushPage(1)">
+      <img src="../../assets/imgs/UAOSemana.jpg" alt="">
+      <div class="card-title">Lo UAO de la semana</div>
+    </ion-card>
+  <!-- </ion-nav> -->
+
+  <!-- <ion-nav [root]="academicoRoot"> -->
+    <ion-card (click)="pushPage(2)">
+      <img src="../../assets/imgs/estudios.jpg" alt="">
+      <div class="card-title">Academico</div>
+    </ion-card>
+  <!-- </ion-nav> -->
+
+  <!-- <ion-nav [root]="transporteRoot"> -->
+    <ion-card  (click)="pushPage(3)">
+      <img src="../../assets/imgs/parqueadero.jpg" alt="">
+      <div class="card-title">Transporte</div>
+    </ion-card>
+  <!-- </ion-nav> -->
+
+</ion-content>
