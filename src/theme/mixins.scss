@@ -1,0 +1,7 @@
+@mixin card($position, $top, $size, $width, $color) {
+    position: $position;
+    font-size: $size;
+    width: $width;
+    top: $top;
+    color: $color;
+}
